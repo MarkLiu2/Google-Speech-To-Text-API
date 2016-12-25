@@ -10,7 +10,6 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import net.sourceforge.javaflacencoder.*;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.sound.sampled.AudioFormat;
@@ -20,6 +19,8 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.TargetDataLine;
 
 import com.darkprograms.speech.util.StringUtil;
+
+import javaFlacEncoder.FLACFileWriter;
 
 //TODO Add a better logging system to GSpeechDuplex
 //TODO Find out why the V2 version of duplex no longer works.
